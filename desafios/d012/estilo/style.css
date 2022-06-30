@@ -14,7 +14,7 @@
 
 html, body {
     min-height:100%vh;
-    background-color:darkgray;
+    background-image:linear-gradient(to bottom ,orange, rgba(169, 169, 169, 0.105) ,rgba(0, 0, 0, 0.919));
     font-family: var(--fonte1) ;
 }
 
@@ -28,7 +28,7 @@ header > h1 {
     padding-top:50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: 7vw;
 }
 
 header > p {
@@ -52,11 +52,11 @@ section {
     padding-bottom:10vh;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 0.5em;
 }
 
 section.normal {
@@ -68,27 +68,29 @@ section.normal {
 section.imagem {
     background-color:rgb(53, 53, 53);
     color:white;
-    background-position: 100vw;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    backgroung-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
-    background-color:hsla(0, 0%, 0%, 0.253);
     padding: 5px;
-    text-shadow: 1px 1px opx black;
+    background-color:hsla(0, 0%, 0%, 0.678);
+    text-shadow: 1px 1px opx rgba(0, 0, 0, 0.744);
 
 }
 
 section#img01 {
     background-image: url("../imagens/liberdade.jpg");
-    background-position: center top;
-    background-size: cover;
+    background-position: center left ;
+    
 }
 
 section#img02 {
-   background-image: url("../imagens/tempo.png");
-   background-position: right;
-   background-size: cover;
+   background-image: url("../imagens/biblia1920.jpg");
+   background-position: left top;
+   
 }
 
 
